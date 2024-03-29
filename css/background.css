@@ -1,5 +1,5 @@
 #web_bg {
-    background: -webkit-linear-gradient(0deg,
+    /* background: -webkit-linear-gradient(0deg,
             rgba(247, 149, 51, 0.1) 0,
             rgba(243, 112, 85, 0.1) 15%,
             rgba(239, 78, 123, 0.1) 30%,
@@ -43,5 +43,15 @@
             rgba(80, 115, 184, 0.1) 58%,
             rgba(16, 152, 173, 0.1) 72%,
             rgba(7, 179, 155, 0.1) 86%,
-            rgba(109, 186, 130, 0.1) 100%);
+            rgba(109, 186, 130, 0.1) 100%); */
+        /* 分隔线 */
+        background: hsla(187, 82%, 65%, 1);
+        
+                background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+        
+                background: -moz-linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+        
+                background: -webkit-linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+        
+                filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#5EDEEF", endColorstr="#DCE956", GradientType=1);
 }
