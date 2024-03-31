@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>个人博客搭建教程</title>
+      <link href="/2024/03/31/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+      <url>/2024/03/31/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>占位占位占位</p></blockquote><blockquote><p>在本篇文章中,笔者将详细地向您展示个人博客的搭建流程</p><p>使用的主要资源有</p><ol><li>前辈的教程引用(From CSDN)</li><li>Hexo框架</li><li>Butterfly主题</li><li>GItHub平台</li><li>阿里云OSS对象存储</li></ol></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人发展 </category>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS笔记</title>
       <link href="/2024/03/30/CSS%E7%AC%94%E8%AE%B0/"/>
       <url>/2024/03/30/CSS%E7%AC%94%E8%AE%B0/</url>
