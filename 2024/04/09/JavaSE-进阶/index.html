@@ -6,8 +6,8 @@
 <meta property="og:description" content="Java学习笔记进阶部分">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png">
-<meta property="article:published_time" content="2024-04-09T15:36:25.000Z">
-<meta property="article:modified_time" content="2024-04-12T17:32:37.322Z">
+<meta property="article:published_time" content="2024-04-09T15:35:40.000Z">
+<meta property="article:modified_time" content="2024-04-13T14:33:24.344Z">
 <meta property="article:author" content="PandaC">
 <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-04-13 01:32:37'
+  postUpdate: '2024-04-13 22:33:24'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -160,7 +160,7 @@
 document.addEventListener('pjax:send', () => {
   Pace.restart()
 })
-</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151411.jpg" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151419.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments"></i><span> 说说</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book-open"></i><span> 书单</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-book-atlas"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png')"><nav id="nav"><span id="blog-info"><a href="/" title="PandaCのBlog"><span class="site-name">PandaCのBlog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments"></i><span> 说说</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book-open"></i><span> 书单</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-book-atlas"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">JavaSE-进阶</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-09T15:36:25.000Z" title="发表于 2024-04-09 23:36:25">2024-04-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-12T17:32:37.322Z" title="更新于 2024-04-13 01:32:37">2024-04-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/">Program</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/">后端</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/">编程语言</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>18分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="JavaSE-进阶"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[toc]</p>
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151411.jpg" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151419.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments"></i><span> 说说</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book-open"></i><span> 书单</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-book-atlas"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png')"><nav id="nav"><span id="blog-info"><a href="/" title="PandaCのBlog"><span class="site-name">PandaCのBlog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments"></i><span> 说说</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book-open"></i><span> 书单</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-book-atlas"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">JavaSE-进阶</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-09T15:35:40.000Z" title="发表于 2024-04-09 23:35:40">2024-04-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-13T14:33:24.344Z" title="更新于 2024-04-13 22:33:24">2024-04-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/">Program</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/">后端</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/">编程语言</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Program/%E5%90%8E%E7%AB%AF/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">12.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>41分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="JavaSE-进阶"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[toc]</p>
 <blockquote>
 <p>占位</p>
 <p>标准JavaBean类暂未上传</p>
@@ -292,7 +292,93 @@ document.addEventListener('pjax:send', () => {
 <li>如果写多个类(没有必要),只有一个类能被public修饰,且该类名必须成为Java文件名</li>
 </ul>
 </blockquote>
-<h5 id="对象的内存分析-未"><a href="#对象的内存分析-未" class="headerlink" title="对象的内存分析(未)"></a>对象的内存分析(未)</h5><blockquote>
+<h5 id="创建对象的内存分析"><a href="#创建对象的内存分析" class="headerlink" title="创建对象的内存分析"></a>创建对象的内存分析</h5><blockquote>
+<p>本篇主要理解, 创建一个对象时的内存分析</p>
+</blockquote>
+<blockquote>
+<p>Java内存分配</p>
+<p>Java虚拟机JVM会和其他应用程序(比如说QQ, 网页)一样, 占用内存中的部分空间, 以执行程序</p>
+<p>而为了更好地管理这块内存空间, JVM将其占用的内存分为5个部分↓</p>
+<ul>
+<li><p>栈	</p>
+<p>方法被调用时, 需要进栈执行, 其中的变量也会进行初始化, 等方法体执行完毕后, 方法就要出栈, 其中声明的临时存储在栈空间中的变量也会销毁</p>
+</li>
+<li><p>堆</p>
+<p>所有被new出来的内容, 都存储在堆空间中, 这些被new出来的内容会有一个地址值表示其在堆空间中的位置</p>
+</li>
+<li><p>方法区(元空间)</p>
+<p>前世今生</p>
+<ul>
+<li><p>jdk7以前, 方法区和堆是连在一起的, 而这种设计并不好</p>
+<p>jdk8之后, 新增了元空间, 取消方法区, 将元空间和堆分开, 将原来方法区中的部分功能分到元空间, 还有一部分分到堆空间</p>
+<p>但是在篇内存分析的讲解中, 笔者还是将元空间命名为原本的方法区, 便于理解</p>
+</li>
+</ul>
+<p>功能</p>
+<ul>
+<li>运行一个类的时候, 这个类的字节码文件就会加载到方法区中, 临时存储</li>
+</ul>
+</li>
+<li><p>本地方法栈</p>
+</li>
+<li><p>寄存器</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>一个对象的内存分析</p>
+<p>比如说创建一个Student类的对象student <code>Student student = new Student();</code> </p>
+<p>在JVM分配的内存中, 至少要执行以下5步</p>
+<ol>
+<li><p>在方法区中加载Student.class字节码文件, 临时存储类中的方法</p>
+</li>
+<li><p>方法入栈, 在栈空间中声明局部变量student</p>
+<p>这个student变量存储的内容其实就是将要赋给它的在堆空间中的地址值</p>
+</li>
+<li><p>在堆空间中开辟一块空间, 用来存储student对象中的内容</p>
+<p>它在堆空间中的位置就是它的地址值</p>
+</li>
+<li><p>初始化</p>
+<p>默认&#x2F;显式&#x2F;构造方法初始化都是为student对象中的成员变量进行赋值&#x2F;初始化</p>
+<p>默认初始化, 就是基本数据类型赋初始值(0, 0.0, ‘\u0000’, false), 引用数据类型赋null值</p>
+<p>显式初始化, 就是在类中定义成员变量的时候直接赋值了, 比如<code>private int age =20;</code> , 那么默认初始值就会被其覆盖</p>
+<p>构造方法初始化, 就是创建类的对象时, 调用有参构造将参数赋给对象的成员变量</p>
+</li>
+<li><p>将堆空间中的地址值赋值给栈空间中的局部变量student</p>
+</li>
+</ol>
+<hr>
+<p>以实际例子来说明, 比如现在有一个Student类(<code>①</code>), 然后要在Test类(<code>②</code>)的main方法中, 执行 <code>Student s = new Student();</code> 这条创建对象语句, 那就要走5步流程</p>
+<ol>
+<li><p>方法区加载Test类的字节码文件Test.class, 临时存储其中的main方法</p>
+</li>
+<li><p>main方法入栈, (↑↑想要声明Student的变量s, 就要先在方法区中再加载Student类的字节码文件Student.class, 临时存储类的成员属性和方法), 然后在栈空间中声明并存储临时变量s</p>
+</li>
+<li><p>然后在堆空间中开辟空间分配给s对象, 这块内存里面就存储s对象中的成员属性的值, 和成员方法的地址(指向方法区中存储的方法)</p>
+</li>
+<li><p>对s对象进行初始化</p>
+<p>此案例中采用默认初始化</p>
+</li>
+<li><p>将堆空间中s对象地址值赋给栈空间中s变量</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>两个对象的内存分析</p>
+<p>在上述案例创建s对象的基础上, 再创建一个s2对象</p>
+<p>那么还是走5步流程</p>
+<ol>
+<li>加载Test.class, Studnet.class字节码文件, 临时存储方法</li>
+<li>main方法入栈, 声明临时变量s和s2</li>
+<li>堆空间中开辟两块空间, 分给s对象和s2对象</li>
+<li>对这两个对象初始化</li>
+<li>将s和s2对象在堆空间中的地址值赋给栈空间中的s和s2变量</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>两个对象变量指向同一块堆空间地址</p>
+<p>即Student s1 &#x3D; new Student(); 然后 Student s2 &#x3D; s1;</p>
+<p>在第二创建对象语句时, 就会将s1在堆空间中的地址值赋给s2变量, 这样两个对象变量指向同一块空间, 任何一方执行的操作都会影响堆空间中存储的数据, 间接影响到另一个对象</p>
 </blockquote>
 <h5 id="为什么要有类和对象"><a href="#为什么要有类和对象" class="headerlink" title="为什么要有类和对象"></a>为什么要有类和对象</h5><blockquote>
 <p>类和对象是OOP编程思想的核心组成部分, 没有类和对象就不必谈面向对象编程</p>
@@ -303,7 +389,7 @@ document.addEventListener('pjax:send', () => {
 <blockquote>
 <p>如何定义类</p>
 <p>定义类的格式</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> class 类名 &#123;</span><br><span class="line"> <span class="number">1.</span>成员变量(代表属性,一般是名词n)</span><br><span class="line"> <span class="number">2.</span>成员方法(代表行为,一般是动词v)</span><br><span class="line"> <span class="number">3.</span>构造方法</span><br><span class="line"> <span class="number">4.</span>代码块</span><br><span class="line"> <span class="number">5.</span>内部类</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> class 类名 &#123;</span><br><span class="line">	<span class="number">1.</span>成员变量(代表属性,一般是名词n)</span><br><span class="line">	<span class="number">2.</span>成员方法(代表行为,一般是动词v)</span><br><span class="line">	<span class="number">3.</span>构造方法</span><br><span class="line">	<span class="number">4.</span>代码块</span><br><span class="line">	<span class="number">5.</span>内部类</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>成员变量的完整定义格式</p>
 <p><code>修饰符 数据类型 变量名 = 初始化值;</code> </p>
@@ -397,7 +483,7 @@ document.addEventListener('pjax:send', () => {
 </blockquote>
 <blockquote>
 <p>setXyz(参数列表)方法就是为对象传入属性值, 即为其赋值, 也使用public修饰符, 无返回类型, 但是要传入形式参数, 表示要赋的值, 如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setAge</span><span class="params">(<span class="type">int</span> age)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.age = age;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setAge</span><span class="params">(<span class="type">int</span> age)</span> &#123;</span><br><span class="line"> <span class="built_in">this</span>.age = age;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>赋值的时候还可以对数据进行校验, 只赋合理值</p>
 </blockquote>
@@ -407,14 +493,57 @@ document.addEventListener('pjax:send', () => {
 <p>由于就近原则的特点, 在类中书写方法涉及到对属性的操作时, 就<code>要注意是否混淆了全局变量(即成员属性)和局部变量(即方法中定义的变量)</code></p>
 </blockquote>
 <h5 id="this关键字是什么"><a href="#this关键字是什么" class="headerlink" title="this关键字是什么"></a>this关键字是什么</h5><blockquote>
-<p>this关键字本质就是当前对象的地址值</p>
+<p>this关键字本质就是当前对象的地址值(即方法的调用者的地址值)</p>
 <p>作用是用this指向的变量表示类中的成员属性变量, 而不是传入的局部变量, 可以 <code>区分成员变量和局部变量</code></p>
 </blockquote>
-<h5 id="this关键字内存分析-未"><a href="#this关键字内存分析-未" class="headerlink" title="this关键字内存分析(未)"></a>this关键字内存分析(未)</h5><blockquote>
-<p>1</p>
+<h5 id="this关键字内存分析"><a href="#this关键字内存分析" class="headerlink" title="this关键字内存分析"></a>this关键字内存分析</h5><blockquote>
+<p>一个类中的this关键字的本质是 <code>方法调用者的地址值</code> </p>
+<p>比如说main方法中创建了s对象 <code>Student s = new Student();</code> 然后调用s对象中的show方法 <code>s.show();</code> 而show方法中的内容就是输出s对象的姓名,学号,班级(都用this关键字指向了)</p>
+<p>此时调用show方法遇到this关键字, 就会被解析为是s对象的地址值, 就要去s对象的堆空间中取出姓名,学号,班级信息</p>
+<hr>
+<p>笔者个人理解, 其实可以把this关键字(存储某个对象地址值)看成一个类中的成员变量, 哪个对象调用类中的方法, 这个this存储的就是这个对象的地址值</p>
 </blockquote>
-<h5 id="成员-局部变量的区别-未"><a href="#成员-局部变量的区别-未" class="headerlink" title="成员&amp;局部变量的区别(未)"></a>成员&amp;局部变量的区别(未)</h5><blockquote>
-<p>1</p>
+<h5 id="成员-局部变量的区别"><a href="#成员-局部变量的区别" class="headerlink" title="成员&amp;局部变量的区别"></a>成员&amp;局部变量的区别</h5><blockquote>
+<p>成员变量 -&gt; 类中的属性(在方法体之外)</p>
+<p>​	比如Student类中定义的int age; String name;都是成员变量</p>
+<p>局部变量 -&gt; 方法中的变量(在方法体之内)</p>
+<p>​	比如setAge方法中定义的形参(setAge(int age)中的age), 这就是一个局部变量, 方法被调用后, 执行完毕(出栈)后就会被销毁</p>
+<hr>
+<p>二者区别如下(不用记)</p>
+<table>
+<thead>
+<tr>
+<th align="center">区别</th>
+<th align="center">成员变量</th>
+<th align="center">局部变量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">类中位置不同</td>
+<td align="center">类中, 方法体之外</td>
+<td align="center">类中, 方法体之内</td>
+</tr>
+<tr>
+<td align="center">初始化值不同</td>
+<td align="center">有默认初始化值</td>
+<td align="center">没有默认初值, 需要自行赋值</td>
+</tr>
+<tr>
+<td align="center">内存位置不同</td>
+<td align="center">堆内存空间</td>
+<td align="center">栈内存空间</td>
+</tr>
+<tr>
+<td align="center">生命周期不同</td>
+<td align="center">随着对象的创建而创建, 随着对象的销毁而销毁</td>
+<td align="center">随着方法的调用而产生, 随着方法的出栈(运行完毕)而销毁</td>
+</tr>
+<tr>
+<td align="center">作用域不同</td>
+<td align="center">整个类中有效</td>
+<td align="center">当前方法体中有效</td>
+</tr>
+</tbody></table>
 </blockquote>
 <h5 id="为什么要有this关键字"><a href="#为什么要有this关键字" class="headerlink" title="为什么要有this关键字"></a>为什么要有this关键字</h5><blockquote>
 <p>更方便地调用到类中的成员变量</p>
@@ -452,7 +581,7 @@ document.addEventListener('pjax:send', () => {
 </blockquote>
 <h5 id="如何定义构造方法"><a href="#如何定义构造方法" class="headerlink" title="如何定义构造方法"></a>如何定义构造方法</h5><blockquote>
 <p>定义格式</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span>&#123;</span><br><span class="line">	<span class="number">1.</span>成员变量</span><br><span class="line">    <span class="number">2.</span>成员方法</span><br><span class="line">    修饰符 类名(参数列表) &#123;</span><br><span class="line">        构造方法体;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="number">4.</span>代码块</span><br><span class="line">    <span class="number">5.</span>内部类</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//参数列表可以为空 -&gt; 空参构造</span></span><br><span class="line"><span class="comment">//也可以写参数 -&gt; 有参构造</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span>&#123;</span><br><span class="line">	<span class="number">1.</span>成员变量</span><br><span class="line"> <span class="number">2.</span>成员方法</span><br><span class="line"> 修饰符 类名(参数列表) &#123;</span><br><span class="line">     构造方法体;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="number">4.</span>代码块</span><br><span class="line"> <span class="number">5.</span>内部类</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//参数列表可以为空 -&gt; 空参构造</span></span><br><span class="line"><span class="comment">//也可以写参数 -&gt; 有参构造</span></span><br></pre></td></tr></table></figure>
 
 <p>定义要求</p>
 <ul>
@@ -474,7 +603,24 @@ document.addEventListener('pjax:send', () => {
 <p>如何使用</p>
 <p><code>构造方法不用手动调用, 在创建对象时由JVM自动调用执行, 每创建一个对象就会自动调用一次构造方法</code></p>
 </blockquote>
-<h4 id="标准JavaBean类"><a href="#标准JavaBean类" class="headerlink" title="标准JavaBean类"></a>标准JavaBean类</h4><h5 id="什么是标准JavaBean类-未"><a href="#什么是标准JavaBean类-未" class="headerlink" title="什么是标准JavaBean类(未)"></a>什么是标准JavaBean类(未)</h5><blockquote>
+<h4 id="标准JavaBean类"><a href="#标准JavaBean类" class="headerlink" title="标准JavaBean类"></a>标准JavaBean类</h4><h5 id="什么是标准JavaBean类"><a href="#什么是标准JavaBean类" class="headerlink" title="什么是标准JavaBean类"></a>什么是标准JavaBean类</h5><blockquote>
+<p>对于一个描述事物的类, 并且类中包含了 <code>属性, 成员方法(set, get, toString, ...), 以及构造方法(至少空参+全参)</code> 的话, 就可以称为标准的JavaBean类</p>
+<p>其包括的内容就是</p>
+<ul>
+<li><p>成员变量</p>
+</li>
+<li><p>成员方法</p>
+<p>set</p>
+<p>get</p>
+<p>toString</p>
+<p>else</p>
+</li>
+<li><p>构造方法</p>
+<p>空参</p>
+<p>全参</p>
+<p>else</p>
+</li>
+</ul>
 </blockquote>
 <h5 id="为什么要有标准JavaBean类"><a href="#为什么要有标准JavaBean类" class="headerlink" title="为什么要有标准JavaBean类"></a>为什么要有标准JavaBean类</h5><blockquote>
 <p>对描述事物的这种类, 进行一个定义规范的统一, 要求标准JavaBean类必须包括xxx部分</p>
@@ -507,6 +653,9 @@ document.addEventListener('pjax:send', () => {
 <li>安装PTG插件</li>
 <li>鼠标右键选择PTG自动生成标准JavaBean类</li>
 </ul>
+</blockquote>
+<blockquote>
+<p>将来还可以使用 Lombok 类库, 利用注解快速生成标准JavaBean类</p>
 </blockquote>
 <h4 id="static静态修饰符"><a href="#static静态修饰符" class="headerlink" title="static静态修饰符"></a>static静态修饰符</h4><h5 id="static静态修饰符是什么-未"><a href="#static静态修饰符是什么-未" class="headerlink" title="static静态修饰符是什么(未)"></a>static静态修饰符是什么(未)</h5><blockquote>
 <p>1</p>
@@ -548,65 +697,209 @@ document.addEventListener('pjax:send', () => {
 <p>1</p>
 </blockquote>
 <h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><h3 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h3><hr>
-<h2 id="2’字符串"><a href="#2’字符串" class="headerlink" title="2’字符串"></a>2’字符串</h2><h3 id="String字符串"><a href="#String字符串" class="headerlink" title="String字符串"></a>String字符串</h3><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><blockquote>
-<p>Stringの背景</p>
-<ul>
-<li>String类定义在java.lang包下,使用时不需要导包</li>
-<li>Java中所有字符串字面量都是这个类的对象</li>
-</ul>
+<h2 id="2’面向对象综合训练"><a href="#2’面向对象综合训练" class="headerlink" title="2’面向对象综合训练"></a>2’面向对象综合训练</h2><h3 id="文字版格斗游戏"><a href="#文字版格斗游戏" class="headerlink" title="文字版格斗游戏"></a>文字版格斗游戏</h3><h4 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h4><h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><h4 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h4><h3 id="对象数组练习"><a href="#对象数组练习" class="headerlink" title="对象数组练习"></a>对象数组练习</h3><h4 id="案例-1"><a href="#案例-1" class="headerlink" title="案例"></a>案例</h4><h4 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h4><h4 id="实现-1"><a href="#实现-1" class="headerlink" title="实现"></a>实现</h4><hr>
+<h2 id="3’字符串"><a href="#3’字符串" class="headerlink" title="3’字符串"></a>3’字符串</h2><blockquote>
+<p>本章节所学习的字符串内容都是基于Java编程语言的</p>
+</blockquote>
+<h3 id="是什么-1"><a href="#是什么-1" class="headerlink" title="是什么"></a>是什么</h3><h4 id="API是什么"><a href="#API是什么" class="headerlink" title="API是什么"></a>API是什么</h4><blockquote>
+<p>在上一章节 &lt;面向对象编程&gt; 的学习中, 我们主要学习了如何手撕一个类&#x2F;对象, 以及其中的方法来解决问题</p>
+<p>而接下来的学习, 我们还要进一步掌握如何使用别人编写好的工具(类&#x2F;对象及其之中的方法)</p>
 </blockquote>
 <blockquote>
-<p>Stringの特别注意点</p>
-<ul>
-<li>字符串的内容在创建后,就不能修改了!!!</li>
-</ul>
-</blockquote>
-<h4 id="创建String对象的方法"><a href="#创建String对象的方法" class="headerlink" title="创建String对象的方法"></a>创建String对象的方法</h4><blockquote>
-<p>直接赋值</p>
-<ul>
-<li><code>String str = &quot;example&quot;;</code></li>
-</ul>
+<p>API, 即Application Programming Interface(应用程序编程接口)</p>
+<p>其实就是别人写好的东西, 我们直接拿过来用就好, 比如Random类就是别人写好的生成随机数的工具, 我们直接使用即可</p>
+<p>Java API -&gt; 指的就是在JDK中已经提供了的各种Java类, 我们不关心这些类如何实现, 掌握如何使用就可以了</p>
 </blockquote>
 <blockquote>
-<p>使用new关键字创建String对象</p>
+<p>API帮助文档 -&gt; 帮助开发者使用&#x2F;查询API的工具</p>
+<p>Java API中的类很多, 随用随取即可 -&gt; 查询JDK-API帮助文档</p>
 <ul>
-<li><code>public String()</code> -&gt; 没有任何内容,创建空白字符串对象</li>
-<li><code>public String(String original)</code> -&gt; 根据传入的内容,创建字符串对象</li>
-<li><code>public String(char[] chs)</code> -&gt; 根据字符数组,创建字符串对象<ul>
-<li>字符串在创建后就不能更改,但是可以利用字符数组修改字符串的内容;先把要更改的字符串转化为字符数组,然后修改字符数组,最后再转化为字符串即可</li>
+<li>可以下载API帮助文档</li>
+<li>也可以在线查看 <a target="_blank" rel="noopener" href="https://docs.oracle.com/en/java/javase/11/docs/api/index.html">JDK-API</a></li>
 </ul>
-</li>
-<li><code>public String(byte[] chs)</code> -&gt; 根据字节数组,创建字符串对象<ul>
-<li>网络中传输的信息都是字节信息,可以利用这种构造方法将字节信息转化为字符串</li>
-</ul>
-</li>
-</ul>
-<p><code>键盘录入的字符串也算作new的字符串对象</code></p>
 </blockquote>
-<h4 id="String内存分析"><a href="#String内存分析" class="headerlink" title="String内存分析"></a>String内存分析</h4><blockquote>
+<h4 id="字符串String是什么"><a href="#字符串String是什么" class="headerlink" title="字符串String是什么"></a>字符串String是什么</h4><blockquote>
+<p>用 <code>双引号””包裹的内容</code> 都是字符串</p>
+<ul>
+<li>其中可以存储的内容是任意个字符</li>
+</ul>
+<p>而且字符串还可以通过 <code>+</code> 运算符, 实现字符串的拼接操作, 还有n个字符串的操作</p>
+<ul>
+<li>所以我们需要学习常用的String操作(方法)</li>
+</ul>
+<p>字符串的特点</p>
+<ul>
+<li>字符串对象一旦创建, 其内容就不可更改了</li>
+<li>Java程序中所有字符串文字都是String类的对象</li>
+</ul>
+</blockquote>
+<h4 id="Java中的字符串类有哪些"><a href="#Java中的字符串类有哪些" class="headerlink" title="Java中的字符串类有哪些"></a>Java中的字符串类有哪些</h4><blockquote>
 <ol>
-<li>直接赋值的字符串内存<ul>
-<li>存储在堆内存中的<code>串池StringTable</code>中</li>
-<li>每次用这种方式创建一个字符串的时候,JVM都会现在串池中查看有没有这个字符串<ul>
-<li>有的话,就让这个字符串指向串池中的字符串位置,即<code>复用已有字符串</code></li>
-<li>没有的话,就在串池中创建一个该字符串数据,然后让新的字符串指向这个串池中的字符串数据,即<code>创建新的字符串</code></li>
-</ul>
+<li><p>字符串数据类型</p>
+<p>String</p>
+</li>
+<li><p>字符串容器</p>
+<p>StringBuilder</p>
+<p>StringBuffer</p>
+</li>
+<li><p>字符串工具</p>
+<p>StringJoiner -&gt; 构建以指定分隔符分隔的字符串序列的工具</p>
+<p>Pattern -&gt; 正则表达式工具, 用于表示和编译正则表达式的类</p>
+<p>Matcher -&gt; 正则表达式工具, 用于在给定的输入字符串中执行匹配操作</p>
+</li>
+</ol>
+</blockquote>
+<h4 id="String创建对象的内存分析"><a href="#String创建对象的内存分析" class="headerlink" title="String创建对象的内存分析"></a>String创建对象的内存分析</h4><blockquote>
+<p>Java虚拟机的内存模型</p>
+<p>栈 -&gt; 和方法运行有关, 进栈&amp;出栈</p>
+<p>堆 -&gt; 和new出来的对象有关, new出来都存储在堆空间</p>
+<ul>
+<li><p>串池(StringTable) -&gt; 可以理解为字符串常量池</p>
+<p>用来存字符串对象, 但是 <code>只存储直接赋值方式创建的字符串</code> </p>
+<p>JDK7以前串池放在方法区当中, JDK7之后就放到堆空间了</p>
 </li>
 </ul>
+<p>方法区(元空间) -&gt; 加载类的字节码文件, 临时存储方法</p>
+</blockquote>
+<blockquote>
+<p>直接赋值的字符串内存</p>
+<ul>
+<li><p>存储在堆内存中的 <code>串池StringTable</code> 中</p>
+</li>
+<li><p>每次用这种方式创建一个字符串的时候, JVM都会现在串池中查看有没有这个字符串</p>
+<p>有的话, 就让这个字符串指向串池中的字符串位置, 即<code>复用已有字符串</code></p>
+<p>没有的话, 就在串池中创建一个该字符串数据, 然后让新的字符串指向这个串池中的字符串数据, 即<code>创建新的字符串</code></p>
+</li>
+</ul>
+<p>所以创建字符串对象, 还是多多用直接赋值的方式, 代码又简单, 效率又高(节约内存)</p>
+</blockquote>
+<blockquote>
+<p>new创建的字符串内存</p>
+<ul>
+<li>在堆里面开辟新的空间, 用来存放new出来的字符串对象</li>
+<li>每次用这种方式创建一个字符串的时候, JVM都会在堆空间中开辟一块新空间, 即不可能地址重复</li>
+</ul>
+</blockquote>
+<h4 id="字符串容器StringBuilder是什么"><a href="#字符串容器StringBuilder是什么" class="headerlink" title="字符串容器StringBuilder是什么"></a>字符串容器StringBuilder是什么</h4><blockquote>
+<p>StringBuilder是一个字符串容器, 其内容是可变的</p>
+<p>sb对象中存储的内容默认都是字符串类型</p>
+<ul>
+<li>向它添加数据时，如果数据不是字符串类型，它们会自动将其转换为字符串类型并存储</li>
+</ul>
+<p>作用</p>
+<ul>
+<li><p>用来对字符串String对象进行操作, 提高字符串操作效率	</p>
+<p>对 <code>字符串拼接</code> 和 <code>字符串反转</code> 的操作极为方便, 且效率也高</p>
+</li>
+</ul>
+</blockquote>
+<h4 id="链式编程是什么"><a href="#链式编程是什么" class="headerlink" title="链式编程是什么"></a>链式编程是什么</h4><blockquote>
+<p>在使用sb对象的方法时, 可以写成这种形式 <code>sb.append(1).append(2).reverse().toString();</code> ,这种思想就是链式编程</p>
+<p>链式 -&gt; 一串一串连接</p>
+<p>链式编程 -&gt; 在调用方法的时候, 暂时不用变量接收结果, 而是继续再调用方法, ..以此类推</p>
+</blockquote>
+<h4 id="字符串工具StringJoiner是什么"><a href="#字符串工具StringJoiner是什么" class="headerlink" title="字符串工具StringJoiner是什么"></a>字符串工具StringJoiner是什么</h4><blockquote>
+<p>StringJoiner是一个用于拼接字符串的工具&#x2F;辅助类, 其内容也是可变的</p>
+<p>不过其出现在JDK8之后, 所以用的人较少</p>
+<p>作用</p>
+<ul>
+<li>提高字符串操作效率(主要指拼接操作)</li>
+<li>主要作用是让用户可以通过指定分隔符，便捷地构建一个包含多个字符串的字符串序列</li>
+</ul>
+</blockquote>
+<h4 id="字符串拼接的底层原理-未"><a href="#字符串拼接的底层原理-未" class="headerlink" title="字符串拼接的底层原理(未)"></a>字符串拼接的底层原理(未)</h4><blockquote>
+<p>1</p>
+</blockquote>
+<h4 id="StringBuilder提高效率的原理-未"><a href="#StringBuilder提高效率的原理-未" class="headerlink" title="StringBuilder提高效率的原理(未)"></a>StringBuilder提高效率的原理(未)</h4><blockquote>
+<p>1</p>
+</blockquote>
+<h3 id="为什么-1"><a href="#为什么-1" class="headerlink" title="为什么"></a>为什么</h3><h4 id="为什么要学字符串String"><a href="#为什么要学字符串String" class="headerlink" title="为什么要学字符串String"></a>为什么要学字符串String</h4><blockquote>
+<p>字符串是一种常用的数据类型, 需要其处理多个字符组成的集合, 没有字符串String, 就没有便捷快速的处理多字符的方法</p>
+</blockquote>
+<h4 id="为什么要学字符串容器StringBuilder"><a href="#为什么要学字符串容器StringBuilder" class="headerlink" title="为什么要学字符串容器StringBuilder"></a>为什么要学字符串容器StringBuilder</h4><blockquote>
+<p>字符串String对于存储内容的要求较高, 一旦创建其内容就不可改变, 而使用StringBuilder可以 <code>解决不可更改内容</code> 的这个问题</p>
+<p>并且, StringBuilder对于字符串的 <code>操作效率也很高(主要是拼接和反转)</code></p>
+<p>比如有s1,2,3,4,5,6这六个字符串, 我想要将它们拼接在一起返回到str对象, 只用String类的话, 就要一个一个拼接字符串, 比如s1+s2的时候, 就会创建 <code>s1+s2</code> 这个之后不会用到的字符串对象, 效率低下占用内存</p>
+<p>而用StringBuilder类的话, 就直接把这几个字符串添加到sb对象容器中, 最后转为String对象就完成了, 效率高</p>
+</blockquote>
+<h4 id="为什么要学字符串工具StringJoiner"><a href="#为什么要学字符串工具StringJoiner" class="headerlink" title="为什么要学字符串工具StringJoiner"></a>为什么要学字符串工具StringJoiner</h4><blockquote>
+<p>使字符串拼接操作更方便</p>
+<p>可以指定分隔符, 起始符号和结束符号, 以快速构建包含若干字符串的字符串序列</p>
+</blockquote>
+<h3 id="怎么做-1"><a href="#怎么做-1" class="headerlink" title="怎么做"></a>怎么做</h3><h4 id="如何使用Java-API"><a href="#如何使用Java-API" class="headerlink" title="如何使用Java-API"></a>如何使用Java-API</h4><blockquote>
+<p>就三步</p>
+<ol>
+<li><p>导包</p>
+<p>要使用哪个类, 就得把这个类所在包导入Java文件</p>
+</li>
+<li><p>创建对象</p>
+<p>有的类可能不需要创建对象(工具类), 这一步就可以省略</p>
+</li>
+<li><p>调用方法</p>
+<p>用类名or对象名调用成员属性&#x2F;方法, 来解决问题</p>
 </li>
 </ol>
 </blockquote>
 <blockquote>
-<ol start="2">
-<li>new创建的字符串内存<ul>
-<li>在堆里面创建新的空间,用来存放new出来的字符串对象</li>
-<li>每次用这种方式创建一个字符串的时候,JVM都会在堆空间中开辟一块新空间,即不可能地址重复</li>
-</ul>
-</li>
-</ol>
+<p>java.lang包是默认导入的, 其中有很多常用类, 使用时不需要导包</p>
+<p>比如String类, Scanner类等等</p>
 </blockquote>
-<h4 id="String常用操作-未"><a href="#String常用操作-未" class="headerlink" title="String常用操作(未)"></a>String常用操作(未)</h4><blockquote>
-<p>比较</p>
+<h4 id="如何创建String对象"><a href="#如何创建String对象" class="headerlink" title="如何创建String对象"></a>如何创建String对象</h4><blockquote>
+<p><code>Java程序中所有字符串文字都是String类的对象</code></p>
+<p>Java中的String对象创建方式有两种</p>
+<ul>
+<li><p>直接赋值</p>
+<p>即使用赋值运算符 <code>=</code> 来创建String对象</p>
+</li>
+<li><p>new创建字符串对象</p>
+<p>即使用构造方法来创建String对象</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>创建String对象</p>
+<p>直接赋值 &#x3D;&gt; 用<code>=</code>符号创建String</p>
+<ul>
+<li><code>String str = “abcd”;</code></li>
+</ul>
+<p>使用new关键字创建字符串对象 &#x3D;&gt; 用<code>构造方法</code>创建String</p>
+<ul>
+<li><p><code>public String()</code> -&gt; 没有任何内容,创建空白字符串对象</p>
+</li>
+<li><p><code>public String(String original)</code> -&gt; 根据传入的内容,创建字符串对象(脱裤子放屁)</p>
+</li>
+<li><p><code>public String(char[] chs)</code> -&gt; 根据字符数组,创建字符串对象</p>
+<p>如下图所示</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404131524064.png" alt="利用字符数组创建字符串" style="zoom:50%;" />
+
+<p>这种方式的作用 &#x3D;&gt; 字符串在创建后就不能更改,但是 <code>可以利用字符数组修改字符串的内容</code> ;先把要更改的字符串转化为字符数组,然后修改字符数组,最后再转化为字符串即可</p>
+</li>
+<li><p><code>public String(byte[] chs)</code> -&gt; 根据字节数组,创建字符串对象</p>
+<p>如下图所示</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404131527121.png" alt="利用字节数组创建字符串" style="zoom:50%;" />
+
+<p>这种方式的作用 &#x3D;&gt; 网络中传输的信息都是字节信息,可以 <code>利用这种构造方法将字节信息转化为字符串</code></p>
+</li>
+</ul>
+<p>一个小小注意点</p>
+<ul>
+<li><code>键盘录入的字符串也算作new创建的字符串对象</code> ,即存储在堆空间中, 不存储在串池</li>
+</ul>
+</blockquote>
+<h4 id="如何使用String常用操作"><a href="#如何使用String常用操作" class="headerlink" title="如何使用String常用操作"></a>如何使用String常用操作</h4><blockquote>
+<p>使用常用操作, 包括</p>
+<ul>
+<li>比较</li>
+<li>遍历</li>
+<li>拼接</li>
+<li>反转</li>
+<li>截取</li>
+<li>替换</li>
+<li>等等……</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>字符串比较</p>
 <p><code>==符号比较的到底是什么</code></p>
 <ul>
 <li>基本数据类型 -&gt; 比较数据值</li>
@@ -615,42 +908,275 @@ document.addEventListener('pjax:send', () => {
 <p>所以 ,&#x3D;&#x3D;字符串的内容比较不能直接用<code>==</code>号&#x3D;&#x3D;</p>
 <ul>
 <li><code>boolean equals</code>方法 -&gt; 比较两个字符串对象的数据值</li>
-<li><code>boolean equalsIgnoreCase</code>方法 -&gt; 忽略字母大小写比较数据值</li>
+<li><code>boolean equalsIgnoreCase</code>方法 -&gt; 忽略英文字母大小写比较数据值</li>
 </ul>
+<p>例子如下</p>
+<p>&#x3D;&#x3D;号比较地址值</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str1</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str2</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str3</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">    <span class="type">String</span> <span class="variable">str4</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>();</span><br><span class="line">    str4 = <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">    System.out.println(str1==str2);<span class="comment">//true</span></span><br><span class="line">    System.out.println(str1==str3);<span class="comment">//false</span></span><br><span class="line">    System.out.println(str1==str4);<span class="comment">//true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>第一个结果为true, 因为两个创建方式都是直接赋值, 会从串池中复用已有字符串</p>
+<p>第二个结果为false, 因为二者创建方式不同, 一个地址在串池, 一个地址在堆空间, 所以地址值不相等</p>
+<p>第三个结果为true, 因为虽然str4是new创建的, 但是之后它又指向字符串常量了, 还是从串池中复用, 故地址值与str1相等</p>
+<hr>
+<p>equals&#x2F;equalsIgnoreCase比较内容</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str1</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str2</span> <span class="operator">=</span> <span class="string">&quot;mvp&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str3</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">    <span class="type">String</span> <span class="variable">str4</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;mvp&quot;</span>);</span><br><span class="line">    <span class="type">String</span> <span class="variable">str5</span> <span class="operator">=</span> <span class="string">&quot;AbC&quot;</span>;</span><br><span class="line">    System.out.println(str1.equals(str3));<span class="comment">//true</span></span><br><span class="line">    System.out.println(str2.equals(str4));<span class="comment">//true</span></span><br><span class="line">    System.out.println(str1.equalsIgnoreCase(str5));<span class="comment">//true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>第一个和第二个结果为true, 是因为字符串对象存储的内容确确实实一样, 所以true</p>
+<p>第三个结果为true, 因为忽略了英文字母大小写后, 字典序比较也是一样的, 所以true</p>
 </blockquote>
 <blockquote>
-<p>遍历</p>
+<p>字符串遍历</p>
+<p>使用到以下方法</p>
 <ul>
-<li><code>char charAt(index)</code>方法 -&gt; 根据索引下标返回字符值</li>
-<li><code>int length()</code>方法 -&gt; 返回字符串长度<ul>
-<li>数组的length是属性不加()</li>
-<li>字符串的length是成员方法,要加()</li>
+<li><p><code>char charAt(int index)</code> -&gt; 根据索引index返回字符(字符串索引从0开始)</p>
+</li>
+<li><p><code> int length()</code> -&gt; 返回字符串长度</p>
+<p>数组的length是一个属性, 调用方式是 <code>arr.length;</code> 即可</p>
+<p>而字符串的length是一个成员方法, 调用方式是 <code>str.length();</code></p>
+</li>
 </ul>
+<p>遍历演示如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;abcdK123&quot;</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; str.length(); i++) &#123;</span><br><span class="line">        <span class="type">char</span> <span class="variable">c</span> <span class="operator">=</span> str.charAt(i);</span><br><span class="line">        System.out.print(c + <span class="string">&quot; &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结果是 <code>a b c d K 1 2 3  </code> </p>
+</blockquote>
+<blockquote>
+<p>字符串拼接</p>
+<p>比如说将 <code>int[] arr = &#123;1,2,3&#125;;</code> 里面的内容拼接, 返回字符串形式为 <code>str = “&#123;1, 2, 3&#125;”;</code> 那拼接时, 就有三种方法</p>
+<ul>
+<li><p>String类</p>
+<p>最麻烦的一种, 要依次使用 <code>+</code> 运算符, 将不同内容拼接在一起</p>
+</li>
+<li><p>StringBuilder类</p>
+<p>比较方便使用的字符串容器, 只需要依次append内容进入容器, 最后toString转换为String对象即可</p>
+</li>
+<li><p>StringJoiner类</p>
+<p>比较方便使用的字符串工具, 专门用来处理字符串拼接</p>
 </li>
 </ul>
 </blockquote>
 <blockquote>
-<p>拼接</p>
+<p>字符串反转</p>
+<p>比如说将 <code>“abc”</code> 转换为 <code>“cba”</code> , 这就是字符串的反转操作, 而反转的方法, 大体分为两种</p>
 <ul>
-<li>利用String类<ul>
-<li>new一个新字符串str</li>
-<li>将两个子字符串stra和strb加在一起赋给str</li>
+<li>String类, 通过逆序遍历每个元素, 将每个元素拼接到新的字符串对象, 最后这个新的字符串对象就是反转后的结果	</li>
+<li>StringBuilder类, 有一个 <code>reverse()</code> 成员方法, 反转后再toString转为字符串对象即可</li>
 </ul>
+<p>例子如下</p>
+<p>利用String类进行字符串反转</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;abcdK123&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">newStr</span> <span class="operator">=</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> str.length() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="type">char</span> <span class="variable">c</span> <span class="operator">=</span> str.charAt(i);</span><br><span class="line">        newStr += c;</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println(newStr);<span class="comment">//321Kdcba</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>当然, 使用StringBuilder类方便得多…</p>
+</blockquote>
+<blockquote>
+<p>字符串截取</p>
+<p>使用到以下方法</p>
+<ul>
+<li><p><code>String substring(int beginIndex, int endIndex)</code> -&gt; 截取[begin, end)索引范围的字符子串</p>
 </li>
-<li>利用StringBuilder(推荐)<ul>
-<li>调用append方法即可</li>
+<li><p><code>String substring(int beginIndex)</code> -&gt; 截取[begin, 末尾]索引范围的字符子串</p>
+<p>需要用变量接收截取子串的返回值</p>
+</li>
 </ul>
+<p>例子如下(截取11位手机号码, 隐藏中间四位内容)</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="comment">//1.给定原始手机号</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">phoneNumber</span> <span class="operator">=</span> <span class="string">&quot;13763855666&quot;</span>;</span><br><span class="line">    <span class="comment">//2.截取中间四位, 隐藏其内容</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> phoneNumber.substring(<span class="number">0</span>,<span class="number">3</span>) + <span class="string">&quot;****&quot;</span> + phoneNumber.substring(<span class="number">7</span>);</span><br><span class="line">    <span class="comment">//3.查看结果</span></span><br><span class="line">    System.out.println(result);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结果是 <code>137****5666</code> </p>
+</blockquote>
+<blockquote>
+<p>字符串替换</p>
+<p>使用到以下方法</p>
+<ul>
+<li><p><code>String replace(oldStr, newStr)</code> -&gt; 将字符串中的所有oldStr替换为newStr</p>
+<p>需要变量接收替换后的字符串对象</p>
+</li>
+</ul>
+<p>例子如下(游戏敏感词替换)</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="comment">//1.获取敏感词</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">word</span> <span class="operator">=</span> <span class="string">&quot;你玩的真好呀!我测你码,你个SB东西&quot;</span>;</span><br><span class="line">    <span class="comment">//2.替换敏感词</span></span><br><span class="line">    <span class="comment">//定义一个敏感词库</span></span><br><span class="line">    String[] arr = &#123;<span class="string">&quot;TMD&quot;</span>, <span class="string">&quot;我测你码&quot;</span>, <span class="string">&quot;SB&quot;</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">        word = word.replace(arr[i], <span class="string">&quot;***&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//3.输出新字符串</span></span><br><span class="line">    System.out.println(word);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结果是 <code>你玩的真好呀!***,你个***东西</code> </p>
+</blockquote>
+<h4 id="如何使用StringBuilder容器"><a href="#如何使用StringBuilder容器" class="headerlink" title="如何使用StringBuilder容器"></a>如何使用StringBuilder容器</h4><blockquote>
+<p>创建StringBuilder对象</p>
+<p>对象中存储的内容默认都是字符串类型 !! 即便添加的不是字符串类型, 也会自动转为字符串类型就进行存储</p>
+<p>创建SB对象要利用其类中的构造方法, 分为两种方式</p>
+<ul>
+<li><code>public StringBuilder()</code> -&gt; 空参构造, 这种方式创建的sb对象中没有任何内容</li>
+<li><code>public StringBuilder(String str)</code> -&gt; 有参构造, 这种方式创建的sb对象中包含一个str字符串</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>使用StringBuilder对象名</p>
+<ul>
+<li>sb对象名并不表示其在堆空间中的地址值</li>
+<li>而是表示整个sb对象的内容(属性值)</li>
+</ul>
+<p>因为StringBuilder是java已经写好的类, 在底层做出特殊处理, 使得利用sb对象名打印时, 并不会打印地址值而是对象中的全部属性值</p>
+<p>例如</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">StringBuilder</span> <span class="variable">sb</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">    sb.append(<span class="string">&quot;123&quot;</span>).append(<span class="number">456</span>).append(<span class="literal">false</span>).append(<span class="string">&#x27;c&#x27;</span>);</span><br><span class="line">    System.out.println(sb);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结果是 <code>123456falsec</code> </p>
+</blockquote>
+<blockquote>
+<p>使用常用成员方法</p>
+<ul>
+<li><p>添加数据</p>
+<p><code>public StringBuilder append(添加内容)</code> -&gt; 向容器对象中添加数据, 并返回对象本身</p>
+</li>
+<li><p>反转数据</p>
+<p><code>public StringBuilder reverse()</code> -&gt; 反转容器对象中的内容</p>
+</li>
+<li><p>返回长度</p>
+<p><code>public int length()</code> -&gt; 返回容器长度(字符的个数)</p>
+</li>
+<li><p>转化为字符串对象</p>
+<p><code>public String toString()</code> -&gt; 将sb容器对象转化为字符串String对象</p>
 </li>
 </ul>
 </blockquote>
 <blockquote>
-<p>反转</p>
+<p>案例演示</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">	<span class="type">StringBuilder</span> <span class="variable">sb</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">	sb.append(<span class="number">123</span>);<span class="comment">//会被转为字符串&quot;123&quot;</span></span><br><span class="line">	sb.append(<span class="literal">true</span>);<span class="comment">//会被转为字符串&quot;true&quot;</span></span><br><span class="line">	System.out.println(sb);<span class="comment">//123true</span></span><br><span class="line">	sb.reverse();</span><br><span class="line">	System.out.println(sb);<span class="comment">//eurt321</span></span><br><span class="line">	System.out.println(sb.length());<span class="comment">//不要误以为是2, 其实是7</span></span><br><span class="line">	<span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> sb.toString();</span><br><span class="line">	System.out.println(str);<span class="comment">//eurt321</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>一般只有要进行字符串的拼接操作 或 字符串的反转操作时, 会用到StringBuilder类</p>
+</blockquote>
+<h4 id="如何使用StringJoiner工具"><a href="#如何使用StringJoiner工具" class="headerlink" title="如何使用StringJoiner工具"></a>如何使用StringJoiner工具</h4><blockquote>
+<p>创建StringJoiner对象</p>
+<p>sj对象只能接收字符串类型的数据, 不是字符串类型的数据无法添加进sj对象</p>
+<p>使用构造方法创建sj对象必须要指定参数, 也分为两种方式</p>
 <ul>
-<li>利用String类</li>
+<li><code>public StringJoiner(分隔符号)</code> -&gt; 创建一个sj对象, 并且拼接时以分隔符号分隔</li>
+<li><code>public StringJoiner(间隔符号, 开始符号, 结束符号)</code> -&gt; 创建一个sj对象, 并且拼接时包括起始符号和结束符号, 并以分隔符号分隔</li>
 </ul>
 </blockquote>
-<h3 id="StringBuilder"><a href="#StringBuilder" class="headerlink" title="StringBuilder"></a>StringBuilder</h3><h3 id="StringJoiner"><a href="#StringJoiner" class="headerlink" title="StringJoiner"></a>StringJoiner</h3><h3 id="字符串相关类的底层原理"><a href="#字符串相关类的底层原理" class="headerlink" title="字符串相关类的底层原理"></a>字符串相关类的底层原理</h3><hr>
-<h2 id="3’集合ArrayList"><a href="#3’集合ArrayList" class="headerlink" title="3’集合ArrayList"></a>3’集合ArrayList</h2><h3 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h3><blockquote>
+<blockquote>
+<p>使用常用成员方法</p>
+<ul>
+<li><p>添加数据</p>
+<p><code>public StringJoiner add(添加内容)</code> -&gt; 向sj对象中添加数据, 并返回对象本身</p>
+</li>
+<li><p>返回长度</p>
+<p><code>public int length()</code> -&gt; 返回sj对象中的字符个数(包括起始符号, 结束符号, 分隔符号)</p>
+</li>
+<li><p>转化为字符串对象</p>
+<p><code>public String toString()</code> -&gt; 将sj对象转化为字符串String对象(包括起始符号, 结束符号, 分隔符号)</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>案例演示</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"> <span class="type">StringJoiner</span> <span class="variable">sj</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringJoiner</span>(<span class="string">&quot;,&quot;</span>,<span class="string">&quot;[&quot;</span>,<span class="string">&quot;]&quot;</span>);</span><br><span class="line"> sj.add(<span class="string">&quot;1&quot;</span>).add(<span class="string">&quot;2&quot;</span>).add(<span class="string">&quot;3&quot;</span>);</span><br><span class="line"> System.out.println(sj);<span class="comment">//[1,2,3]</span></span><br><span class="line"> System.out.println(sj.length());<span class="comment">//不是3, 是7</span></span><br><span class="line"> <span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> sj.toString();</span><br><span class="line"> System.out.println(str);<span class="comment">//[1,2,3]</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="字符串练习"><a href="#字符串练习" class="headerlink" title="字符串练习"></a>字符串练习</h3><h4 id="用户登录"><a href="#用户登录" class="headerlink" title="用户登录"></a>用户登录</h4><blockquote>
+<p>案例</p>
+<p>已知正确的用户名和密码, 用程序模拟用户登录</p>
+<p>一共三次机会, 登录后给出提示</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<ol>
+<li>保存正确用户名和密码</li>
+<li>键盘录入登录的用户名和密码</li>
+<li>死循环, 超过3次就锁定账号</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"> <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"> <span class="comment">//1.保存正确用户名&amp;密码</span></span><br><span class="line"> <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> <span class="string">&quot;pandac&quot;</span>;</span><br><span class="line"> <span class="type">String</span> <span class="variable">password</span> <span class="operator">=</span> <span class="string">&quot;123456&quot;</span>;</span><br><span class="line"> <span class="comment">//3.死循环套住, 记录次数</span></span><br><span class="line"> <span class="type">int</span> <span class="variable">count</span> <span class="operator">=</span> <span class="number">3</span>;</span><br><span class="line"> <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">     <span class="comment">//2.键盘录入用户名和密码</span></span><br><span class="line">     System.out.println(<span class="string">&quot;请输入用户名: &quot;</span>);</span><br><span class="line">     <span class="type">String</span> <span class="variable">inUsername</span> <span class="operator">=</span> sc.next();</span><br><span class="line">     System.out.println(<span class="string">&quot;请输入密码: &quot;</span>);</span><br><span class="line">     <span class="type">String</span> <span class="variable">inPassword</span> <span class="operator">=</span> sc.next();</span><br><span class="line">     <span class="keyword">if</span> (username.equals(inUsername) &amp;&amp; password.equals(inPassword)) &#123;</span><br><span class="line">         System.out.println(<span class="string">&quot;登录成功, 欢迎来到xx系统!&quot;</span>);</span><br><span class="line">         <span class="keyword">break</span>;</span><br><span class="line">     &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">         count--;</span><br><span class="line">         <span class="keyword">if</span> (count == <span class="number">0</span>) &#123;</span><br><span class="line">             System.out.println(<span class="string">&quot;您的账号&quot;</span> + username + <span class="string">&quot;已被锁定! 请联系客服处理&quot;</span>);</span><br><span class="line">             <span class="keyword">break</span>;</span><br><span class="line">         &#125;</span><br><span class="line">         System.out.println(<span class="string">&quot;用户名或密码有误, 请重新输入, 还有&quot;</span> + (count) + <span class="string">&quot;次机会!&quot;</span>);</span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>当然, 也可以不用count和while(true), 直接用for*3次循环亦可以实现</p>
+</blockquote>
+<h4 id="金额转换"><a href="#金额转换" class="headerlink" title="金额转换"></a>金额转换</h4><blockquote>
+<p>案例</p>
+<p>将一个数字金额(比如1234), 转化为中文的钱数表示(即壹仟贰佰叁拾肆元)</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<p>一眼丁真, 要用数组按顺序存储两个内容 &#x3D;&gt; 查表法</p>
+<ul>
+<li><p>x佰x拾x万x仟x佰x拾x元</p>
+<p>char[] unit; 表示数字的单位</p>
+</li>
+<li><p>0-&gt;零, 1-&gt;壹, 2-&gt;贰…, 9-&gt; 玖</p>
+<p>char[] numToStr; 表示阿拉伯数字与中文的转换, 而且直接用下标0-9对应中文零-玖</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"> <span class="comment">//1.接收输入的金额</span></span><br><span class="line"> <span class="type">int</span> <span class="variable">price</span> <span class="operator">=</span> getPrice();</span><br><span class="line"> <span class="comment">//2.转化输入的金额</span></span><br><span class="line"> <span class="type">String</span> <span class="variable">newPrice</span> <span class="operator">=</span> transform(price);</span><br><span class="line"> <span class="comment">//3.输出转化后的金额</span></span><br><span class="line"> System.out.println(newPrice);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//用户输入数字金额</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">getPrice</span><span class="params">()</span> &#123;</span><br><span class="line"> <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"> <span class="keyword">while</span>(<span class="literal">true</span>) &#123;</span><br><span class="line">     System.out.println(<span class="string">&quot;请输入一个数字金额(范围0-9999999): &quot;</span>);</span><br><span class="line">     <span class="type">int</span> <span class="variable">num</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line">     <span class="keyword">if</span>(num &gt;= <span class="number">0</span> &amp;&amp; num &lt;= <span class="number">9999999</span>) <span class="keyword">return</span> num;</span><br><span class="line">     <span class="keyword">else</span> System.out.println(<span class="string">&quot;金额无效, 重新输入&quot;</span>);</span><br><span class="line"> &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//将数字金额转化为中文结果</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">transform</span><span class="params">(<span class="type">int</span> price)</span> &#123;</span><br><span class="line"> <span class="type">char</span>[] unit = &#123;<span class="string">&#x27;佰&#x27;</span>, <span class="string">&#x27;拾&#x27;</span>, <span class="string">&#x27;万&#x27;</span>, <span class="string">&#x27;仟&#x27;</span>, <span class="string">&#x27;佰&#x27;</span>, <span class="string">&#x27;拾&#x27;</span>, <span class="string">&#x27;元&#x27;</span>&#125;;</span><br><span class="line"> <span class="type">char</span>[] numToStr = &#123;<span class="string">&#x27;零&#x27;</span>, <span class="string">&#x27;壹&#x27;</span>, <span class="string">&#x27;贰&#x27;</span>, <span class="string">&#x27;叁&#x27;</span>, <span class="string">&#x27;肆&#x27;</span>, <span class="string">&#x27;伍&#x27;</span>, <span class="string">&#x27;陆&#x27;</span>, <span class="string">&#x27;柒&#x27;</span>, <span class="string">&#x27;捌&#x27;</span>, <span class="string">&#x27;玖&#x27;</span>&#125;;</span><br><span class="line"> <span class="comment">//将数字金额每一位转化为数组存储</span></span><br><span class="line"> <span class="type">int</span>[] num = integerDigitsToArray(price);</span><br><span class="line"> <span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line"> <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">7</span>; i++) &#123;</span><br><span class="line">     result = result + numToStr[num[i]] + unit[i];</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//将一个长度&lt;=7的数字的每一位存入数组</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span>[] integerDigitsToArray(<span class="type">int</span> price) &#123;</span><br><span class="line"> <span class="comment">//将传入数字的每一位转化为数组存储</span></span><br><span class="line"> <span class="comment">//将数组长度定为7, 当数字金额不足7位时, 也会自动在前面赋初值0</span></span><br><span class="line"> <span class="type">int</span>[] num = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">7</span>];</span><br><span class="line"> <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"> <span class="keyword">while</span> (price &gt; <span class="number">0</span>) &#123;</span><br><span class="line">     num[index] = price % <span class="number">10</span>;</span><br><span class="line">     price /= <span class="number">10</span>;</span><br><span class="line">     index ++;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="comment">//反转金额数组</span></span><br><span class="line"> <span class="type">int</span>[] result = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">7</span>];</span><br><span class="line"> <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">     result[<span class="number">7</span> - <span class="number">1</span> - i] = num[i];</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="查看身份证信息"><a href="#查看身份证信息" class="headerlink" title="查看身份证信息"></a>查看身份证信息</h4><blockquote>
+<p>案例</p>
+<p>我国居民身份证号码共18位</p>
+<p>第1,2位代表省份, 3-4代表城市, 5-6代表区县</p>
+<p>7-14代表出生年&#x2F;月&#x2F;日, 15-16代表所在地派出所</p>
+<p>17代表性别(男奇女偶), 18代表个人信息码, 随机产生</p>
+<p>要求是, 给定一个身份证号码, 返回出生年月日和性别</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<ol>
+<li><p>输入身份证号</p>
+</li>
+<li><p>取出7-14位与17位</p>
+</li>
+<li><p>按结果输出</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"> <span class="comment">//1.录入一个身份证号码</span></span><br><span class="line"> <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"> System.out.println(<span class="string">&quot;请输入一个身份证号码(共18位): &quot;</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">id</span> <span class="operator">=</span> sc.next();<span class="comment">//还可以进行长度的判断, 懒得写</span></span><br><span class="line"> <span class="comment">//2.取出代表出生日期和性别的信息码</span></span><br><span class="line"> <span class="type">String</span> <span class="variable">birthYear</span> <span class="operator">=</span> id.substring(<span class="number">6</span>, <span class="number">10</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">birthMonth</span> <span class="operator">=</span> id.substring(<span class="number">10</span>, <span class="number">12</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">birthDay</span> <span class="operator">=</span> id.substring(<span class="number">12</span>, <span class="number">14</span>);</span><br><span class="line"> <span class="type">char</span> <span class="variable">genderCode</span> <span class="operator">=</span> id.charAt(<span class="number">16</span>);</span><br><span class="line"> <span class="comment">//3.按结果输出</span></span><br><span class="line"> System.out.println(<span class="string">&quot;出生日期是: &quot;</span> + birthYear + <span class="string">&quot;年 &quot;</span> + birthMonth + <span class="string">&quot;月 &quot;</span> + birthDay + <span class="string">&quot;日&quot;</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">gender</span> <span class="operator">=</span> (genderCode - <span class="string">&#x27;0&#x27;</span>) % <span class="number">2</span> != <span class="number">0</span> ? <span class="string">&quot;男&quot;</span> : <span class="string">&quot;女&quot;</span>;</span><br><span class="line"> System.out.println(<span class="string">&quot;性别是: &quot;</span> + gender);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结果如下</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404131952273.png" alt="身份证案例结果" style="zoom:60%;" />
+</blockquote>
+<h4 id="对称字符串"><a href="#对称字符串" class="headerlink" title="对称字符串"></a>对称字符串</h4><blockquote>
+<p>案例</p>
+<p>键盘接受一个字符串, 使用程序判断该字符串是否为对称字符串, 然后打印yes or no</p>
+<p>对称字符串, 比如123321, 1234321</p>
+<p>非对称字符串, 比如123432, 123123</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<p>接收字符串和打印结果都是苦力活代码而言</p>
+<p>只有判断是否是对称字符串这里需要一点想法</p>
+<ul>
+<li>使用StringBuilder类接收输入的字符串, 再将其反转-&gt;转化为字符串对象, 然后比较这个字符串对象和原来输入的字符串对象是不是内容相等即可</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"> <span class="comment">//1.键盘录入字符串</span></span><br><span class="line"> <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"> System.out.println(<span class="string">&quot;请输入一个字符串: &quot;</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> sc.next();</span><br><span class="line"> <span class="comment">//2.将其放入sb对象, 并进行反转</span></span><br><span class="line"> <span class="type">StringBuilder</span> <span class="variable">sb</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>(str);</span><br><span class="line"> <span class="type">String</span> <span class="variable">res</span> <span class="operator">=</span> sb.reverse().toString();</span><br><span class="line"> <span class="comment">//3.输出结果</span></span><br><span class="line"> System.out.println(str.equals(res));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="罗马数字的两种写法-未"><a href="#罗马数字的两种写法-未" class="headerlink" title="罗马数字的两种写法(未)"></a>罗马数字的两种写法(未)</h4><blockquote>
+<p>案例</p>
+<p>1</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<p>1</p>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="调整字符串-未"><a href="#调整字符串-未" class="headerlink" title="调整字符串(未)"></a>调整字符串(未)</h4><blockquote>
+<p>案例</p>
+<p>1</p>
+</blockquote>
+<blockquote>
+<p>分析</p>
+<p>1</p>
+</blockquote>
+<blockquote>
+<p>实现</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<hr>
+<h2 id="4’集合ArrayList"><a href="#4’集合ArrayList" class="headerlink" title="4’集合ArrayList"></a>4’集合ArrayList</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><blockquote>
 <p>为什么要有集合</p>
 <ul>
 <li>解决大量数据的难统一管理问题</li>
@@ -734,8 +1260,12 @@ document.addEventListener('pjax:send', () => {
 </ul>
 </blockquote>
 <hr>
-<h2 id="4’学生管理系统"><a href="#4’学生管理系统" class="headerlink" title="4’学生管理系统"></a>4’学生管理系统</h2><h3 id="基础版本"><a href="#基础版本" class="headerlink" title="基础版本"></a>基础版本</h3><h4 id="业务需求"><a href="#业务需求" class="headerlink" title="业务需求"></a>业务需求</h4><h3 id="进阶版本"><a href="#进阶版本" class="headerlink" title="进阶版本"></a>进阶版本</h3><h4 id="业务需求-1"><a href="#业务需求-1" class="headerlink" title="业务需求"></a>业务需求</h4><hr>
-<h2 id="5’面向对象进阶"><a href="#5’面向对象进阶" class="headerlink" title="5’面向对象进阶"></a>5’面向对象进阶</h2><h3 id="static静态"><a href="#static静态" class="headerlink" title="static静态"></a>static静态</h3><blockquote>
+<h2 id="5’学牲管理系统"><a href="#5’学牲管理系统" class="headerlink" title="5’学牲管理系统"></a>5’学牲管理系统</h2><blockquote>
+<p>由于此笔记主要记录知识点和练习案例, 详细的小项目</p>
+<p>请跳转至 <a href="">学牲管理系统</a> 查看详细内容</p>
+</blockquote>
+<hr>
+<h2 id="面向对象进阶"><a href="#面向对象进阶" class="headerlink" title="面向对象进阶"></a>面向对象进阶</h2><h3 id="static静态"><a href="#static静态" class="headerlink" title="static静态"></a>static静态</h3><blockquote>
 <p>为什么要用static修饰符?</p>
 <ul>
 <li>标注一个类中”共享”的内容</li>
@@ -800,13 +1330,21 @@ document.addEventListener('pjax:send', () => {
 </ul>
 <p>p123-理解方式01:30</p>
 </blockquote>
-<h3 id="继承-1"><a href="#继承-1" class="headerlink" title="继承"></a>继承</h3><h4 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h4><blockquote>
+<h3 id="继承-1"><a href="#继承-1" class="headerlink" title="继承"></a>继承</h3><h4 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h4><blockquote>
 <p>面向对象三大特性之一</p>
 </blockquote>
 <hr>
-<h2 id="6’拼图小游戏"><a href="#6’拼图小游戏" class="headerlink" title="6’拼图小游戏"></a>6’拼图小游戏</h2><h2 id="7’常用API"><a href="#7’常用API" class="headerlink" title="7’常用API"></a>7’常用API</h2><h2 id="8’常见算法"><a href="#8’常见算法" class="headerlink" title="8’常见算法"></a>8’常见算法</h2><h2 id="9’集合进阶"><a href="#9’集合进阶" class="headerlink" title="9’集合进阶"></a>9’集合进阶</h2><h2 id="10’阶段项目-斗地主"><a href="#10’阶段项目-斗地主" class="headerlink" title="10’阶段项目(斗地主)"></a>10’阶段项目(斗地主)</h2></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://pandac.top">PandaC</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://pandac.top/2024/04/09/JavaSE-%E8%BF%9B%E9%98%B6/">http://pandac.top/2024/04/09/JavaSE-进阶/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://pandac.top" target="_blank">PandaCのBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Java/">Java</a></div><div class="post_share"><div class="social-share" data-image="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/04/09/%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" title="工具推荐"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404090043035.png" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">工具推荐</div></div></a></div><div class="next-post pull-right"><a href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">JavaSE-高级</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/03/25/JavaSE-%E5%9F%BA%E7%A1%80/" title="JavaSE-基础"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151415.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-03-25</div><div class="title">JavaSE-基础</div></div></a></div><div><a href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-09</div><div class="title">JavaSE-高级</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151411.jpg" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151419.gif'" alt="avatar"/></div><div class="author-info__name">PandaC</div><div class="author-info__description">坚持长期主义，与伟大格局者同行</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/pandac-blog"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/pandac-blog" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2879594796@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=2879594796&amp;website=www.oicqzone.com" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这是PandaC的个人博客网站,记录了一些学习内容和个人心得.    
+<h2 id="6’阶段项目-拼图小游戏"><a href="#6’阶段项目-拼图小游戏" class="headerlink" title="6’阶段项目(拼图小游戏)"></a>6’阶段项目(拼图小游戏)</h2><blockquote>
+<p>由于此笔记主要记录知识点和练习案例, 详细的小项目</p>
+<p>请跳转至 <a href="">拼图小游戏</a> 查看详细内容</p>
+</blockquote>
+<h2 id="7’常用API"><a href="#7’常用API" class="headerlink" title="7’常用API"></a>7’常用API</h2><h2 id="8’常见算法"><a href="#8’常见算法" class="headerlink" title="8’常见算法"></a>8’常见算法</h2><h2 id="9’集合进阶"><a href="#9’集合进阶" class="headerlink" title="9’集合进阶"></a>9’集合进阶</h2><h2 id="10’阶段项目-斗地主"><a href="#10’阶段项目-斗地主" class="headerlink" title="10’阶段项目(斗地主)"></a>10’阶段项目(斗地主)</h2><blockquote>
+<p>由于此笔记主要记录知识点和练习案例, 详细的小项目</p>
+<p>请跳转至 <a href="">斗地主</a> 查看详细内容</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://pandac.top">PandaC</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://pandac.top/2024/04/09/JavaSE-%E8%BF%9B%E9%98%B6/">http://pandac.top/2024/04/09/JavaSE-进阶/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://pandac.top" target="_blank">PandaCのBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Java/">Java</a></div><div class="post_share"><div class="social-share" data-image="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/04/09/%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" title="工具推荐"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404090043035.png" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">工具推荐</div></div></a></div><div class="next-post pull-right"><a href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" onerror="onerror=null;src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">JavaSE-高级</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-09</div><div class="title">JavaSE-高级</div></div></a></div><div><a href="/2024/03/25/JavaSE-%E5%9F%BA%E7%A1%80/" title="JavaSE-基础"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151415.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-03-25</div><div class="title">JavaSE-基础</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151411.jpg" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151419.gif'" alt="avatar"/></div><div class="author-info__name">PandaC</div><div class="author-info__description">坚持长期主义，与伟大格局者同行</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/pandac-blog"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/pandac-blog" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2879594796@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=2879594796&amp;website=www.oicqzone.com" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这是PandaC的个人博客网站,记录了一些学习内容和个人心得.    
 欢迎您的浏览交流!
-</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E2%80%99%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text">1’面向对象编程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#OOP%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.</span> <span class="toc-text">OOP介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.</span> <span class="toc-text">是什么</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">面向对象是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">面向对象三大特性是什么</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.2.</span> <span class="toc-text">为什么</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">为什么要有面向对象编程</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">为什么要学面向对象编程</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E5%81%9A"><span class="toc-number">1.1.3.</span> <span class="toc-text">怎么做</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">如何学习面向对象编程</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.</span> <span class="toc-text">封装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.1.</span> <span class="toc-text">封装介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">封装是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%9A%84%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.2.</span> <span class="toc-text">封装的核心思想是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.3.</span> <span class="toc-text">封装的学习内容是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.1.4.</span> <span class="toc-text">为什么要有封装</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.1.5.</span> <span class="toc-text">如何理解封装</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.</span> <span class="toc-text">类和对象</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">类和对象是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E4%BA%94%E4%B8%AA%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.2.2.</span> <span class="toc-text">类的五个组成部分是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-number">1.2.2.3.</span> <span class="toc-text">类的分类</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%9B%E5%BB%BA%E8%A7%84%E8%8C%83"><span class="toc-number">1.2.2.4.</span> <span class="toc-text">类文件的创建规范</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90-%E6%9C%AA"><span class="toc-number">1.2.2.5.</span> <span class="toc-text">对象的内存分析(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.6.</span> <span class="toc-text">为什么要有类和对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.7.</span> <span class="toc-text">如何定义类和对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.8.</span> <span class="toc-text">如何使用类和对象</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.</span> <span class="toc-text">权限修饰符</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.3.1.</span> <span class="toc-text">权限修饰符是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.2.</span> <span class="toc-text">为什么要有权限修饰符</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.3.</span> <span class="toc-text">如何使用权限修饰符</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">set&#x2F;get方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#set-get%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.4.1.</span> <span class="toc-text">set&#x2F;get方法是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.2.</span> <span class="toc-text">为什么要有set&#x2F;get方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.3.</span> <span class="toc-text">如何定义set&#x2F;get方法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.</span> <span class="toc-text">this关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%B1%E8%BF%91%E5%8E%9F%E5%88%99%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.5.1.</span> <span class="toc-text">就近原则是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.5.2.</span> <span class="toc-text">this关键字是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90-%E6%9C%AA"><span class="toc-number">1.2.5.3.</span> <span class="toc-text">this关键字内存分析(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%88%90%E5%91%98-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E7%9A%84%E5%8C%BA%E5%88%AB-%E6%9C%AA"><span class="toc-number">1.2.5.4.</span> <span class="toc-text">成员&amp;局部变量的区别(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.5.</span> <span class="toc-text">为什么要有this关键字</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.6.</span> <span class="toc-text">如何使用this关键字</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">构造方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.6.1.</span> <span class="toc-text">构造方法是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.2.</span> <span class="toc-text">为什么要有构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.3.</span> <span class="toc-text">如何理解构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.4.</span> <span class="toc-text">如何定义构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.5.</span> <span class="toc-text">如何使用构造方法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.</span> <span class="toc-text">标准JavaBean类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%A0%87%E5%87%86JavaBean%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.7.1.</span> <span class="toc-text">什么是标准JavaBean类(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.2.</span> <span class="toc-text">为什么要有标准JavaBean类</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.3.</span> <span class="toc-text">如何生成标准JavaBean类</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.8.</span> <span class="toc-text">static静态修饰符</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.8.1.</span> <span class="toc-text">static静态修饰符是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.8.2.</span> <span class="toc-text">静态变量和静态方法是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6-%E6%9C%AA"><span class="toc-number">1.2.8.3.</span> <span class="toc-text">为什么要有static静态修饰符(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6-%E6%9C%AA"><span class="toc-number">1.2.8.4.</span> <span class="toc-text">如何使用static静态修饰符(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="toc-number">1.2.9.</span> <span class="toc-text">工具类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.9.1.</span> <span class="toc-text">工具类是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.9.2.</span> <span class="toc-text">为什么要有工具类(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.9.3.</span> <span class="toc-text">如何生成工具类(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">1.2.10.</span> <span class="toc-text">代码块</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.10.1.</span> <span class="toc-text">代码块是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E4%BB%A3%E7%A0%81%E5%9D%97-%E6%9C%AA"><span class="toc-number">1.2.10.2.</span> <span class="toc-text">为什么要有代码块(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.10.3.</span> <span class="toc-text">如何使用工具类(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-number">1.2.11.</span> <span class="toc-text">内部类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E7%B1%BB%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.11.1.</span> <span class="toc-text">内部类是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%86%85%E9%83%A8%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.11.2.</span> <span class="toc-text">为什么要有内部类(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%86%85%E9%83%A8%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.11.3.</span> <span class="toc-text">如何生成内部类(未)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">1.3.</span> <span class="toc-text">继承</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">1.4.</span> <span class="toc-text">多态</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E2%80%99%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">2.</span> <span class="toc-text">2’字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#String%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">2.1.</span> <span class="toc-text">String字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.1.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAString%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">2.1.2.</span> <span class="toc-text">创建String对象的方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#String%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90"><span class="toc-number">2.1.3.</span> <span class="toc-text">String内存分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#String%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C-%E6%9C%AA"><span class="toc-number">2.1.4.</span> <span class="toc-text">String常用操作(未)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#StringBuilder"><span class="toc-number">2.2.</span> <span class="toc-text">StringBuilder</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#StringJoiner"><span class="toc-number">2.3.</span> <span class="toc-text">StringJoiner</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3%E7%B1%BB%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86"><span class="toc-number">2.4.</span> <span class="toc-text">字符串相关类的底层原理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E2%80%99%E9%9B%86%E5%90%88ArrayList"><span class="toc-number">3.</span> <span class="toc-text">3’集合ArrayList</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-1"><span class="toc-number">3.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ArrayList%E9%9B%86%E5%90%88-%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84"><span class="toc-number">3.2.</span> <span class="toc-text">ArrayList集合(动态数组)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F"><span class="toc-number">3.2.1.</span> <span class="toc-text">创建方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%93%E5%8D%B0%E9%9B%86%E5%90%88%E5%AF%B9%E8%B1%A1%E5%90%8D"><span class="toc-number">3.2.2.</span> <span class="toc-text">打印集合对象名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95"><span class="toc-number">3.2.3.</span> <span class="toc-text">成员方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8C%85%E8%A3%85%E7%B1%BB"><span class="toc-number">3.2.4.</span> <span class="toc-text">基本数据类型的包装类</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E2%80%99%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F"><span class="toc-number">4.</span> <span class="toc-text">4’学生管理系统</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E7%89%88%E6%9C%AC"><span class="toc-number">4.1.</span> <span class="toc-text">基础版本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%9A%E5%8A%A1%E9%9C%80%E6%B1%82"><span class="toc-number">4.1.1.</span> <span class="toc-text">业务需求</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E7%89%88%E6%9C%AC"><span class="toc-number">4.2.</span> <span class="toc-text">进阶版本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%9A%E5%8A%A1%E9%9C%80%E6%B1%82-1"><span class="toc-number">4.2.1.</span> <span class="toc-text">业务需求</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E2%80%99%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BF%9B%E9%98%B6"><span class="toc-number">5.</span> <span class="toc-text">5’面向对象进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#static%E9%9D%99%E6%80%81"><span class="toc-number">5.1.</span> <span class="toc-text">static静态</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F"><span class="toc-number">5.1.1.</span> <span class="toc-text">静态变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">5.1.2.</span> <span class="toc-text">静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB-1"><span class="toc-number">5.1.3.</span> <span class="toc-text">工具类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#static%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="toc-number">5.1.4.</span> <span class="toc-text">static访问权限</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF-1"><span class="toc-number">5.2.</span> <span class="toc-text">继承</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-2"><span class="toc-number">5.2.1.</span> <span class="toc-text">介绍</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E2%80%99%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F"><span class="toc-number">6.</span> <span class="toc-text">6’拼图小游戏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E2%80%99%E5%B8%B8%E7%94%A8API"><span class="toc-number">7.</span> <span class="toc-text">7’常用API</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8%E2%80%99%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">8’常见算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9%E2%80%99%E9%9B%86%E5%90%88%E8%BF%9B%E9%98%B6"><span class="toc-number">9.</span> <span class="toc-text">9’集合进阶</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E2%80%99%E9%98%B6%E6%AE%B5%E9%A1%B9%E7%9B%AE-%E6%96%97%E5%9C%B0%E4%B8%BB"><span class="toc-number">10.</span> <span class="toc-text">10’阶段项目(斗地主)</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/Linux/" title="Linux"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092349688.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="Linux"/></a><div class="content"><a class="title" href="/2024/04/09/Linux/" title="Linux">Linux</a><time datetime="2024-04-09T15:48:54.000Z" title="发表于 2024-04-09 23:48:54">2024-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="JavaSE-高级"/></a><div class="content"><a class="title" href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级">JavaSE-高级</a><time datetime="2024-04-09T15:36:43.000Z" title="发表于 2024-04-09 23:36:43">2024-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/JavaSE-%E8%BF%9B%E9%98%B6/" title="JavaSE-进阶"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="JavaSE-进阶"/></a><div class="content"><a class="title" href="/2024/04/09/JavaSE-%E8%BF%9B%E9%98%B6/" title="JavaSE-进阶">JavaSE-进阶</a><time datetime="2024-04-09T15:36:25.000Z" title="发表于 2024-04-09 23:36:25">2024-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" title="工具推荐"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404090043035.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="工具推荐"/></a><div class="content"><a class="title" href="/2024/04/09/%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" title="工具推荐">工具推荐</a><time datetime="2024-04-08T16:34:52.000Z" title="发表于 2024-04-09 00:34:52">2024-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/UML%E7%B1%BB%E5%9B%BE/" title="UML类图"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404090043412.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="UML类图"/></a><div class="content"><a class="title" href="/2024/04/09/UML%E7%B1%BB%E5%9B%BE/" title="UML类图">UML类图</a><time datetime="2024-04-08T16:32:33.000Z" title="发表于 2024-04-09 00:32:33">2024-04-09</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png')"><div id="footer-wrap"><div class="copyright">&copy;2024 By PandaC</div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://pandac-blog.github.io">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat-btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="/js/tw_cn.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E2%80%99%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text">1’面向对象编程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#OOP%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.</span> <span class="toc-text">OOP介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.</span> <span class="toc-text">是什么</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">面向对象是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">面向对象三大特性是什么</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.2.</span> <span class="toc-text">为什么</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">为什么要有面向对象编程</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">为什么要学面向对象编程</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E5%81%9A"><span class="toc-number">1.1.3.</span> <span class="toc-text">怎么做</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">如何学习面向对象编程</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.</span> <span class="toc-text">封装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.1.</span> <span class="toc-text">封装介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">封装是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%9A%84%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.2.</span> <span class="toc-text">封装的核心思想是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.1.3.</span> <span class="toc-text">封装的学习内容是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.1.4.</span> <span class="toc-text">为什么要有封装</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.1.5.</span> <span class="toc-text">如何理解封装</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.</span> <span class="toc-text">类和对象</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">类和对象是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E4%BA%94%E4%B8%AA%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.2.2.</span> <span class="toc-text">类的五个组成部分是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-number">1.2.2.3.</span> <span class="toc-text">类的分类</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B1%BB%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%9B%E5%BB%BA%E8%A7%84%E8%8C%83"><span class="toc-number">1.2.2.4.</span> <span class="toc-text">类文件的创建规范</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90"><span class="toc-number">1.2.2.5.</span> <span class="toc-text">创建对象的内存分析</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.6.</span> <span class="toc-text">为什么要有类和对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.7.</span> <span class="toc-text">如何定义类和对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.2.8.</span> <span class="toc-text">如何使用类和对象</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.</span> <span class="toc-text">权限修饰符</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.3.1.</span> <span class="toc-text">权限修饰符是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.2.</span> <span class="toc-text">为什么要有权限修饰符</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.3.3.</span> <span class="toc-text">如何使用权限修饰符</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">set&#x2F;get方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#set-get%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.4.1.</span> <span class="toc-text">set&#x2F;get方法是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.2.</span> <span class="toc-text">为什么要有set&#x2F;get方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89set-get%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.3.</span> <span class="toc-text">如何定义set&#x2F;get方法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.</span> <span class="toc-text">this关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B0%B1%E8%BF%91%E5%8E%9F%E5%88%99%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.5.1.</span> <span class="toc-text">就近原则是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.5.2.</span> <span class="toc-text">this关键字是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#this%E5%85%B3%E9%94%AE%E5%AD%97%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90"><span class="toc-number">1.2.5.3.</span> <span class="toc-text">this关键字内存分析</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%88%90%E5%91%98-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.2.5.4.</span> <span class="toc-text">成员&amp;局部变量的区别</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.5.</span> <span class="toc-text">为什么要有this关键字</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8this%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.2.5.6.</span> <span class="toc-text">如何使用this关键字</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">构造方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.2.6.1.</span> <span class="toc-text">构造方法是什么</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.2.</span> <span class="toc-text">为什么要有构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.3.</span> <span class="toc-text">如何理解构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.4.</span> <span class="toc-text">如何定义构造方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.5.</span> <span class="toc-text">如何使用构造方法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.</span> <span class="toc-text">标准JavaBean类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.1.</span> <span class="toc-text">什么是标准JavaBean类</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.2.</span> <span class="toc-text">为什么要有标准JavaBean类</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E6%A0%87%E5%87%86JavaBean%E7%B1%BB"><span class="toc-number">1.2.7.3.</span> <span class="toc-text">如何生成标准JavaBean类</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.2.8.</span> <span class="toc-text">static静态修饰符</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.8.1.</span> <span class="toc-text">static静态修饰符是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.8.2.</span> <span class="toc-text">静态变量和静态方法是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6-%E6%9C%AA"><span class="toc-number">1.2.8.3.</span> <span class="toc-text">为什么要有static静态修饰符(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8static%E9%9D%99%E6%80%81%E4%BF%AE%E9%A5%B0%E7%AC%A6-%E6%9C%AA"><span class="toc-number">1.2.8.4.</span> <span class="toc-text">如何使用static静态修饰符(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="toc-number">1.2.9.</span> <span class="toc-text">工具类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.9.1.</span> <span class="toc-text">工具类是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.9.2.</span> <span class="toc-text">为什么要有工具类(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.9.3.</span> <span class="toc-text">如何生成工具类(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">1.2.10.</span> <span class="toc-text">代码块</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.10.1.</span> <span class="toc-text">代码块是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E4%BB%A3%E7%A0%81%E5%9D%97-%E6%9C%AA"><span class="toc-number">1.2.10.2.</span> <span class="toc-text">为什么要有代码块(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.10.3.</span> <span class="toc-text">如何使用工具类(未)</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-number">1.2.11.</span> <span class="toc-text">内部类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E7%B1%BB%E6%98%AF%E4%BB%80%E4%B9%88-%E6%9C%AA"><span class="toc-number">1.2.11.1.</span> <span class="toc-text">内部类是什么(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%86%85%E9%83%A8%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.11.2.</span> <span class="toc-text">为什么要有内部类(未)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%86%85%E9%83%A8%E7%B1%BB-%E6%9C%AA"><span class="toc-number">1.2.11.3.</span> <span class="toc-text">如何生成内部类(未)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">1.3.</span> <span class="toc-text">继承</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">1.4.</span> <span class="toc-text">多态</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E2%80%99%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BB%BC%E5%90%88%E8%AE%AD%E7%BB%83"><span class="toc-number">2.</span> <span class="toc-text">2’面向对象综合训练</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E5%AD%97%E7%89%88%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F"><span class="toc-number">2.1.</span> <span class="toc-text">文字版格斗游戏</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B"><span class="toc-number">2.1.1.</span> <span class="toc-text">案例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E6%9E%90"><span class="toc-number">2.1.2.</span> <span class="toc-text">分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.1.3.</span> <span class="toc-text">实现</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E7%BB%83%E4%B9%A0"><span class="toc-number">2.2.</span> <span class="toc-text">对象数组练习</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B-1"><span class="toc-number">2.2.1.</span> <span class="toc-text">案例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E6%9E%90-1"><span class="toc-number">2.2.2.</span> <span class="toc-text">分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0-1"><span class="toc-number">2.2.3.</span> <span class="toc-text">实现</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E2%80%99%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">3.</span> <span class="toc-text">3’字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%AF%E4%BB%80%E4%B9%88-1"><span class="toc-number">3.1.</span> <span class="toc-text">是什么</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#API%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">3.1.1.</span> <span class="toc-text">API是什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2String%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">3.1.2.</span> <span class="toc-text">字符串String是什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">3.1.3.</span> <span class="toc-text">Java中的字符串类有哪些</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#String%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90"><span class="toc-number">3.1.4.</span> <span class="toc-text">String创建对象的内存分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%B9%E5%99%A8StringBuilder%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">3.1.5.</span> <span class="toc-text">字符串容器StringBuilder是什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">3.1.6.</span> <span class="toc-text">链式编程是什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B7%A5%E5%85%B7StringJoiner%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">3.1.7.</span> <span class="toc-text">字符串工具StringJoiner是什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8B%BC%E6%8E%A5%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86-%E6%9C%AA"><span class="toc-number">3.1.8.</span> <span class="toc-text">字符串拼接的底层原理(未)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#StringBuilder%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E5%8E%9F%E7%90%86-%E6%9C%AA"><span class="toc-number">3.1.9.</span> <span class="toc-text">StringBuilder提高效率的原理(未)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88-1"><span class="toc-number">3.2.</span> <span class="toc-text">为什么</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E5%AD%97%E7%AC%A6%E4%B8%B2String"><span class="toc-number">3.2.1.</span> <span class="toc-text">为什么要学字符串String</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%B9%E5%99%A8StringBuilder"><span class="toc-number">3.2.2.</span> <span class="toc-text">为什么要学字符串容器StringBuilder</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B7%A5%E5%85%B7StringJoiner"><span class="toc-number">3.2.3.</span> <span class="toc-text">为什么要学字符串工具StringJoiner</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E5%81%9A-1"><span class="toc-number">3.3.</span> <span class="toc-text">怎么做</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Java-API"><span class="toc-number">3.3.1.</span> <span class="toc-text">如何使用Java-API</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAString%E5%AF%B9%E8%B1%A1"><span class="toc-number">3.3.2.</span> <span class="toc-text">如何创建String对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8String%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">3.3.3.</span> <span class="toc-text">如何使用String常用操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8StringBuilder%E5%AE%B9%E5%99%A8"><span class="toc-number">3.3.4.</span> <span class="toc-text">如何使用StringBuilder容器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8StringJoiner%E5%B7%A5%E5%85%B7"><span class="toc-number">3.3.5.</span> <span class="toc-text">如何使用StringJoiner工具</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BB%83%E4%B9%A0"><span class="toc-number">3.4.</span> <span class="toc-text">字符串练习</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95"><span class="toc-number">3.4.1.</span> <span class="toc-text">用户登录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%91%E9%A2%9D%E8%BD%AC%E6%8D%A2"><span class="toc-number">3.4.2.</span> <span class="toc-text">金额转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E8%BA%AB%E4%BB%BD%E8%AF%81%E4%BF%A1%E6%81%AF"><span class="toc-number">3.4.3.</span> <span class="toc-text">查看身份证信息</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%A7%B0%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">3.4.4.</span> <span class="toc-text">对称字符串</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%86%99%E6%B3%95-%E6%9C%AA"><span class="toc-number">3.4.5.</span> <span class="toc-text">罗马数字的两种写法(未)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B0%83%E6%95%B4%E5%AD%97%E7%AC%A6%E4%B8%B2-%E6%9C%AA"><span class="toc-number">3.4.6.</span> <span class="toc-text">调整字符串(未)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E2%80%99%E9%9B%86%E5%90%88ArrayList"><span class="toc-number">4.</span> <span class="toc-text">4’集合ArrayList</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">4.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ArrayList%E9%9B%86%E5%90%88-%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84"><span class="toc-number">4.2.</span> <span class="toc-text">ArrayList集合(动态数组)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F"><span class="toc-number">4.2.1.</span> <span class="toc-text">创建方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%93%E5%8D%B0%E9%9B%86%E5%90%88%E5%AF%B9%E8%B1%A1%E5%90%8D"><span class="toc-number">4.2.2.</span> <span class="toc-text">打印集合对象名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95"><span class="toc-number">4.2.3.</span> <span class="toc-text">成员方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8C%85%E8%A3%85%E7%B1%BB"><span class="toc-number">4.2.4.</span> <span class="toc-text">基本数据类型的包装类</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E2%80%99%E5%AD%A6%E7%89%B2%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F"><span class="toc-number">5.</span> <span class="toc-text">5’学牲管理系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BF%9B%E9%98%B6"><span class="toc-number">6.</span> <span class="toc-text">面向对象进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#static%E9%9D%99%E6%80%81"><span class="toc-number">6.1.</span> <span class="toc-text">static静态</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F"><span class="toc-number">6.1.1.</span> <span class="toc-text">静态变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">6.1.2.</span> <span class="toc-text">静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB-1"><span class="toc-number">6.1.3.</span> <span class="toc-text">工具类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#static%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="toc-number">6.1.4.</span> <span class="toc-text">static访问权限</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF-1"><span class="toc-number">6.2.</span> <span class="toc-text">继承</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-1"><span class="toc-number">6.2.1.</span> <span class="toc-text">介绍</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E2%80%99%E9%98%B6%E6%AE%B5%E9%A1%B9%E7%9B%AE-%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F"><span class="toc-number">7.</span> <span class="toc-text">6’阶段项目(拼图小游戏)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E2%80%99%E5%B8%B8%E7%94%A8API"><span class="toc-number">8.</span> <span class="toc-text">7’常用API</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8%E2%80%99%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95"><span class="toc-number">9.</span> <span class="toc-text">8’常见算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9%E2%80%99%E9%9B%86%E5%90%88%E8%BF%9B%E9%98%B6"><span class="toc-number">10.</span> <span class="toc-text">9’集合进阶</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E2%80%99%E9%98%B6%E6%AE%B5%E9%A1%B9%E7%9B%AE-%E6%96%97%E5%9C%B0%E4%B8%BB"><span class="toc-number">11.</span> <span class="toc-text">10’阶段项目(斗地主)</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/04/13/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F/" title="拼图小游戏"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404132224465.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="拼图小游戏"/></a><div class="content"><a class="title" href="/2024/04/13/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F/" title="拼图小游戏">拼图小游戏</a><time datetime="2024-04-13T14:28:29.000Z" title="发表于 2024-04-13 22:28:29">2024-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/13/%E5%AD%A6%E7%89%B2%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="学牲管理系统"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404132224919.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="学牲管理系统"/></a><div class="content"><a class="title" href="/2024/04/13/%E5%AD%A6%E7%89%B2%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="学牲管理系统">学牲管理系统</a><time datetime="2024-04-13T14:28:07.000Z" title="发表于 2024-04-13 22:28:07">2024-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/13/IDEA%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="IDEA开发常用快捷键"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404131455890.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="IDEA开发常用快捷键"/></a><div class="content"><a class="title" href="/2024/04/13/IDEA%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="IDEA开发常用快捷键">IDEA开发常用快捷键</a><time datetime="2024-04-13T06:53:00.000Z" title="发表于 2024-04-13 14:53:00">2024-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/Linux/" title="Linux"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092349688.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="Linux"/></a><div class="content"><a class="title" href="/2024/04/09/Linux/" title="Linux">Linux</a><time datetime="2024-04-09T15:48:54.000Z" title="发表于 2024-04-09 23:48:54">2024-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348195.png" onerror="this.onerror=null;this.src='https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202403311151410.jpg'" alt="JavaSE-高级"/></a><div class="content"><a class="title" href="/2024/04/09/JavaSE-%E9%AB%98%E7%BA%A7/" title="JavaSE-高级">JavaSE-高级</a><time datetime="2024-04-09T15:36:43.000Z" title="发表于 2024-04-09 23:36:43">2024-04-09</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://pandac-blog-oss.oss-cn-chengdu.aliyuncs.com/img/202404092348419.png')"><div id="footer-wrap"><div class="copyright">&copy;2024 By PandaC</div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://pandac-blog.github.io">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat-btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="/js/tw_cn.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);
