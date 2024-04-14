@@ -4,7 +4,38 @@
   
     
     <entry>
-      <title>JavaWeb详细教程(尚硅谷)</title>
+      <title>Maven</title>
+      <link href="/2024/04/14/Maven-%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+      <url>/2024/04/14/Maven-%E5%B0%9A%E7%A1%85%E8%B0%B7/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>占位</p><p>笔记暂未上传</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Program </category>
+          
+          <category> 后端 </category>
+          
+          <category> 开发框架 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven </tag>
+            
+            <tag> 项目管理工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaWeb详细教程</title>
       <link href="/2024/04/14/JavaWeb%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
       <url>/2024/04/14/JavaWeb%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-%E5%B0%9A%E7%A1%85%E8%B0%B7/</url>
       
@@ -53,9 +84,9 @@
       
         <tags>
             
-            <tag> 小项目 </tag>
-            
             <tag> 小游戏 </tag>
+            
+            <tag> 小项目 </tag>
             
         </tags>
       
@@ -84,9 +115,9 @@
       
         <tags>
             
-            <tag> 管理系统 </tag>
-            
             <tag> 小项目 </tag>
+            
+            <tag> 管理系统 </tag>
             
         </tags>
       
@@ -547,11 +578,11 @@
       
         <tags>
             
+            <tag> Hexo </tag>
+            
             <tag> 博客搭建 </tag>
             
             <tag> Blog </tag>
-            
-            <tag> Hexo </tag>
             
             <tag> Butterfly </tag>
             
@@ -696,9 +727,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> 测试 </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
